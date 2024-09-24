@@ -173,10 +173,13 @@ const ProductDetails = () => {
                   <Image src="/plus.png" alt="" width={10} height={10} />
                 </button>
               </div>
-              <button className="h-[51px] w-[300px] text-sm lg:w-[447px] bg-[#00B207] text-white text-[16px] font-semibold flex justify-center items-center gap-3 lg:gap-4 rounded-[43px]">
-                Add to Cart
-                <Image src="/bagg.png" alt="" width={20} height={20} />
-              </button>
+              <Link href="/cart">
+                {" "}
+                <button className="h-[51px] w-[300px] text-sm lg:w-[447px] bg-[#00B207] text-white text-[16px] font-semibold flex justify-center items-center gap-3 lg:gap-4 rounded-[43px]">
+                  Add to Cart
+                  <Image src="/bagg.png" alt="" width={20} height={20} />
+                </button>
+              </Link>
               <div className="w-[40px] h-[40px] rounded-full border border-[#F2F2F2] bg-[#F2F2F2] flex justify-center items-center">
                 <Image src="/Heart.png" alt="" width={20} height={20} />
               </div>
