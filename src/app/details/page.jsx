@@ -3,6 +3,7 @@
 import ProductsCard from "@/components/ProductsCard";
 import Image from "next/image";
 import React, { useState } from "react";
+import Link from "next/link";
 
 const ProductDetails = () => {
   const [selectedImage, setSelectedImage] = useState("/preview.png");
